@@ -15,6 +15,7 @@ enum DIAMOND
 struct Move
 {
     char x, y;
+    DIAMOND diamond;
 };
 
 const int BoardW = 10, BoardH = 9, MarginY = 93, MarginX = 79;
